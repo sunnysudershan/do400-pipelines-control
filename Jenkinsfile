@@ -9,6 +9,6 @@ node('nodejs') {
 
 
     stage('Frontend Tests') {
-       sh 'node ./fronend/test.js'
+       sh 'node ./frontend/test.js'
   }
 }
